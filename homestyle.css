@@ -1,0 +1,36 @@
+body{background-color: pink;}
+
+ 
+h1{background-color:black;}
+h1{font-family:arial;
+font-size:100px;}
+h1{color:white;}
+
+
+h2{font-family: arial;
+font-size:16px;}
+h2{color:white;}
+h2{padding:4px 2px 15px 10px;}
+
+#wrap{width: 550px;
+      float :left;
+      height:50px;
+ }
+
+#one{width:550px;
+	float:right;
+	height:50px;
+	    
+}
+
+
+
+/*unvisited link*/
+a:link{color:white;}
+
+/*visted link*/
+a:visited{color:gray;}
+
+a:hover {color:yellow;}
+
+a:active{color:purple;}
