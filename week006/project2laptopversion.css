@@ -34,3 +34,14 @@
 	}
 
 body{background-color: #FBE68B;}
+
+
+/*unvisited link*/
+a:link{color:gray;}
+
+/*visted link*/
+a:visited{color:white;}
+
+a:hover {color:yellow;}
+
+a:active{color:purple;}
