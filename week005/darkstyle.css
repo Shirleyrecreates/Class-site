@@ -1,4 +1,4 @@
-body{background-color: pink;}
+body{background-color: #fd5e53;}
 
 h1{background-color:black;}
 h1{font-family:arial;
@@ -14,8 +14,6 @@ h2 h3 h4{color:black;}
       float :left;
       height:70px;
  }
-
-
 
 
  ol, ul{
