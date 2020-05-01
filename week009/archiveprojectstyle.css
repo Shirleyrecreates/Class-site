@@ -1,0 +1,50 @@
+/* LANDING PAGE------------------------------------------------- */
+
+/*.............................................landing background*/
+#artanddrawings{
+	width: auto;
+	height: auto;
+	background-color: white;
+	animation-name: art and drawings;
+	animation-duration: 10s;
+	font-family: "arial";
+}
+
+@keyframes art and drawings {
+	from{background-color: black}
+	to{background-color: white}
+}
+
+/*..............................................landing header*/
+#artanddrawingshead{
+	width: auto;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	animation-name: landinghead;
+	animation-duration: 7s;
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+}
+
+@keyframes art amd drawings{
+	from{ background: black; color: black;}
+	to{background: white; color: black;}
+}
+
+/*...................................................grid*/
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+}
+
+.item{
+	padding: 20px;
+}
+
+img{
+	max-width: 300px;
+	max-height: 300px;
+}

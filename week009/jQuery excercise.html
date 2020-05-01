@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Emojis</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<body bgcolor="pink" >
+    <style>
+      .hero_image {
+        width: 50%;
+      }
+      
+      button {
+        display:block;
+        position:fixed;
+        bottom:10px;
+        color:red;
+        background-color:white;
+        cursor:pointer;
+      }
+    </style>
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div style="position: fixed;margin-top: 5%; margin-left: 5%;">
+    <img class="hero_image" src=" " />
+
+    </div>
+    
+    <button>
+      next emoji
+    </button>
+ 
+    <script>
+      var images = [
+        "img/emotional.jpg",
+        "img/girl boss.jpg",
+        "img/heart signal.jpg",
+        "img/heartfelt.jpg",
+        "img/I'm okay.jpg",
+        "img/infactuated.jpg",
+        "img/shy.jpg",
+        "img/bubbling emotions.jpg",
+        "img/butterfly.jpg",
+        "img/friendzoned but I'm okay.jpg",
+        "img/hurt but pretend you're okay.jpg",
+        "img/inlove.jpg",
+        "img/love-hate.jpg",
+        "img/ok.jpg",
+        "img/please i'm cool.jpg",
+        "img/stuck and emotionless.jpg"
+      ];
+          
+      var image = $('.hero_image');
+      
+      function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			};
+      
+      function display_image() {
+        var selected_image = select_random(images);
+        $('.hero_image').attr("src", selected_image);
+      }
+      
+      $(document).ready(function(){
+        display_image();
+        $('button').click(function(){
+          display_image();
+        });
+      });
+      
+    </script>
+  </body>
+</html>

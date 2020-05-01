@@ -1,0 +1,60 @@
+/*INDEX STYLE*/
+/* For desktop: */
+body{
+  background-color: #FBE68B;
+  color: black;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+}
+p{
+color:black;
+}
+h1{
+  color: black;
+} 
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (orientation: portrait){
+body{
+
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  font-family: serif;
+}
+p{
+  text-align: center;
+  color: orange;
+  
+}
+h1{
+  color: white ;
+} 
+}
+    
+    
+  }
+/* For mobile phones: */
+@media only screen
+  and (max-width: 600px){
+body{
+  background-color: black;
+  background-image: black;
+  color: white;
+  text-align: center;
+}
+p{
+  text-align: center;
+  background-color: black;
+  background-image: black;
+}
+h1{
+  color: white;
+} 
+},  

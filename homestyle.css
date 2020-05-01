@@ -6,10 +6,9 @@ h1{font-family:arial;
 font-size:100px;}
 h1{color:white;}
 
-
 h2{font-family: arial;
 font-size:16px;}
-h2{color:white;}
+h2{color:gray;}
 h2{padding:4px 2px 15px 10px;}
 
 #wrap{width: 550px;
@@ -18,18 +17,17 @@ h2{padding:4px 2px 15px 10px;}
  }
 
 #one{width:550px;
-	float:right;
+	float:left;
 	height:50px;
 	    
 }
 
 
-
 /*unvisited link*/
-a:link{color:white;}
+a:link{color:gray;}
 
 /*visted link*/
-a:visited{color:gray;}
+a:visited{color:black;}
 
 a:hover {color:yellow;}
 
