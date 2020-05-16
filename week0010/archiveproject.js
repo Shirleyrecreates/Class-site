@@ -16,7 +16,7 @@ var organizedArchiveItems=[
 
 	{  
 		title: 'Anime gamer aesthetic girl',
-		imageFile:'anime gamer girl aesthetic google.jpg',
+		imageFile:'anime gamer girl aesthetic google.JPG',
 		description: 'I sketched a google image<br> picture. <br> Date: 11.25.2016',
 		broadSpecific:-2 
 	
@@ -104,7 +104,7 @@ var organizedArchiveItems=[
 	{
 
 		title:'Unnamed Painting',
-		imageFile: 'painting class.jpg',
+		imageFile: 'painting class.JPG',
 		description:'Something I made in painting class. <br>Date: Unknown',
 
 		broadSpecific:-2
@@ -163,7 +163,7 @@ var organizedArchiveItems=[
 
 {
 	title: 'Pokemon Drawing',
-	imageFile:'Pokemon drawing.jpg',
+	imageFile:'Pokemon drawing.JPG',
 	description:'One of my after school students gifted me this art piece. <br> Date: 12.12.19',
 	broadSpecific:-2
 },
