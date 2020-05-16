@@ -1,0 +1,29 @@
+/*...................................................grid*/
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+img{
+	max-width: 300px;
+	max-height: 300px;
+}
+video{	max-width: 300px;
+	max-height: 300px;}
+
+.description{
+
+  font-size: 90%;
+  margin: 2px 0;}
+
+  .container{
+  text-align: center;
+  overflow-wrap: break-word;
+    word-wrap: break-word;
+   
+    margin-left: auto; margin-right: auto;
+    padding-top: 0;
+}
